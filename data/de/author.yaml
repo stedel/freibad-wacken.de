@@ -8,11 +8,11 @@ greeting: "Willkommen auf der Webseite vom"
 
 # give your some contact information. they will be used in the footer
 contactInfo:
-  name: "Förderverein Freibad Wacken e. V."
-  "1. Vorsitzender": Carsten Storm
-  anschrift: Süderstr. 1, 25596 Wacken
-  email: "freibad@wacken.de"
-  telefon: "+494827-626"
+  - "Förderverein Freibad Wacken e. V."
+  - "1. Vorsitzender: Carsten Storm"
+  - "Süderstr. 1, 25596 Wacken"
+  - "freibad@wacken.de"
+  - "+494827-626"
 
 # some summary about what you do
 summary:
