@@ -1,0 +1,50 @@
+# section information
+section:
+  name: Ausstattung
+  id: ausstattung
+  enable: false
+  weight: 5
+  showOnNavbar: true
+  template: sections/projects.html
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+  - name: Alles
+    filter: "all"
+  - name: "Nichtschwimmerbecken"
+    filter: "Nichtschwimmerbecken"
+  - name: "Schwimmerbecken"
+    filter: "Schwimmerbecken"
+  - name: "Abseits vom Wasser"
+    filter: "Abseits vom Wasser"
+
+# your projects
+projects:
+  - name: Rutsche
+    tags: ["Nichtschwimmerbecken"]
+    logo: /images/sections/projects/rutsche.jpg
+    summary: "Im Nichtschwimmbecken gibt es eine 8 Meter lange bewässerte Rutsche. Der Bau wurde nach der Saison 2017 begonnen. Rechtzeitig zum Saisonstart 2018 wurde die Rutsche offiziell eröffnet."
+    url: "/posts/shortcodes"
+  - name: 50m Langbahnen
+    logo: /images/sections/projects/langbahnen.jpg
+    summary: "Das Freibad Wacken bietet im Schwimmerbecken acht 50m Langbahnen mit mindestens 1,80 Meter Tiefe."
+    tags: ["Schwimmerbecken"]
+  - name: Sprungturm
+    logo: /images/sections/projects/sprungturm.jpg
+    summary: "Am Ende des Schwimmbeckens sind jeweils ein 1 Meter und ein 3 Meter Sprungturm an einem 3,80 Meter tiefen Becken aufgebaut."
+    tags: ["Schwimmerbecken"]
+  - name: Beachvolleyballfeld
+    logo: /images/sections/projects/beachvolleyball-PLATZHALTER.jpg
+    summary: "Im hinteren Bereich an der großen Rasenfläche ist ein Beachvolleyballfeld mit Sandboden und einem gespannten Netz."
+    tags: ["Abseits vom Wasser"]
+  - name: Bistro
+    logo: "https://i.picsum.photos/id/882/1280/720.jpg?hmac=p3prVbG3_RXZplFB5vNnlFvfjKdyF6WoE6S9SEEftFQ"
+    summary: "Ein Bistro bietet täglich Verpflegung an. Angeboten werden u. A.: Kalt- und Heissgetränke, diverse Eissorten, diverse Süßigkeiten und warme Gerichte."
+    url: /files/bistro-preisliste.pdf
+    tags: ["Abseits vom Wasser"]
+  - name: Wohnmobilstellplatz
+    logo: https://caravaning-institut.de/wp-content/uploads/2018/04/Stellplatz_Wu%CC%88rzburg_03-730x477.jpg
+    summary: "Ganzjährig direkt am Hauptgebäude sind Wohnmobilstellplätze mietbar."
+    tags: ["Abseits vom Wasser"]

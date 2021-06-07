@@ -17,8 +17,8 @@ description: Webseite des Freibad Wacken und des FFW - Förderverein Freibad Wac
 
 # Specify OpenGraph Headers
 openGraph:
-  title: Open-Air Pool / Freibad Wacken
+  title: Freibad Wacken
   type: website
-  description: Webseite of the Open-Air Pool / Freibad in Wacken and the FFW - Förderverein Freibad Wacken e. V.
+  description: Webseite des Freibad Wacken und des FFW - Förderverein Freibad Wacken e. V.
   image: images/site/main-logo.png
   url: https://freibad.stedel.de/

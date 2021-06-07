@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Recent Posts
+  name: Aktuelles
   id: recent-posts
   enable: true
   weight: 1

@@ -1,13 +1,13 @@
 # section information
 section:
-  name: About
+  name: Über Uns
   id: about
   enable: true
   weight: 10
   showOnNavbar: true
   template: sections/about.html
 
-# # your designation
+# your designation
 # designation: Software Engineer
 # # your company information
 # company:
@@ -18,7 +18,7 @@ section:
 resume: "files/betrittserklaerung-foerderverein_2020_07_29.pdf"
 
 # a summary about you
-summary: "The Förderverein Freibad Wacken e. V. supports and operates the Open-Air Pool Wacken"
+summary: "Der FFW - Förderverein Freibad Wacken e. V. betreibt und unterstützt das Freibad Wacken."
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -63,8 +63,8 @@ socialLinks:
 #     name: Hard Working
 #     percentage: 85
 #     color: orange
-# # you can also provide color code instead of the color name
-# # - type: soft-skill-indicator
-# #   name: Example 1
-# #   percentage: 75
-# #   color: "#00adb5"
+# you can also provide color code instead of the color name
+# - type: soft-skill-indicator
+#   name: Example 1
+#   percentage: 75
+#   color: "#00adb5"
