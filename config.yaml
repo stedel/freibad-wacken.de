@@ -1,6 +1,4 @@
-baseURL: https://stedel.de/freibad-wacken.de
-RelativeURLs: true
-CanonifyURLs: true
+baseURL: https://freibad.stedel.de
 
 languageCode: de-de
 title: Freibad Wacken
