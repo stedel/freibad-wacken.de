@@ -1,6 +1,6 @@
 ---
 title: Öffnung am 07. Juni 2021
-date: 2021-06-06T17:12:00+01:00
+date: 2021-06-06T16:12:00.000Z
 author:
   name: Carsten Storm
 menu:
@@ -9,6 +9,7 @@ menu:
     identifier: oeffnung-2021-06-07
     parent: aktuelles
     weight: -2
+slug: offnung-07-juni-2021
 ---
 
 ACHTUNG ! ACHTUNG!!

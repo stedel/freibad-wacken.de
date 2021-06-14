@@ -1,12 +1,13 @@
 ---
-title: "Überblick"
-date: 2021-06-01T08:06:25+06:00
+title: Überblick
+date: 2021-06-01T02:06:25.000Z
 description: Überblick
 menu:
   sidebar:
     name: Überblick
     identifier: Overview
     weight: 10
+slug: uberblick
 ---
 
 <!-- Greeting! This is an introduction post. This post tests the followings:

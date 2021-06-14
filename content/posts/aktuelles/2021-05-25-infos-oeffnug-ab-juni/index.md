@@ -1,6 +1,6 @@
 ---
 title: Infos zur Öffnung ab dem 07. Juni 2021
-date: 2021-05-25T11:05:00+01:00
+date: 2021-05-25T10:05:00.000Z
 author:
   name: Carsten Storm
 menu:
@@ -9,6 +9,7 @@ menu:
     identifier: infos-oeffnung-2021-06-07
     parent: aktuelles
     weight: -1
+slug: infos-zur-offnung-ab-dem-07-juni-2021
 ---
 
 Moin, liebe Freibadfreunde

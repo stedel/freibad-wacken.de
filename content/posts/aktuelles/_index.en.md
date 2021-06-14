@@ -5,4 +5,5 @@ menu:
     name: News
     identifier: news
     weight: 20
+slug: news
 ---

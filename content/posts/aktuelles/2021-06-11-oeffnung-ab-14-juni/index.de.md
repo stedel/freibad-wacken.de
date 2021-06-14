@@ -1,6 +1,6 @@
 ---
 title: Öffnung am 14. Juni 2021
-date: 2021-06-11T21:33:00+01:00
+date: 2021-06-11T20:33:00.000Z
 author:
   name: Carsten Storm
 menu:
@@ -9,6 +9,7 @@ menu:
     identifier: oeffnung-2021-06-14
     parent: aktuelles
     weight: -3
+slug: offnung-14-juni-2021
 ---
 
 Breaking News..... Breaking News!!!

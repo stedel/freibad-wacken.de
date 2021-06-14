@@ -1,6 +1,6 @@
 ---
 title: Opening at 14th June 2021
-date: 2021-06-11T21:33:00+01:00
+date: 2021-06-11T20:33:00.000Z
 author:
   name: Carsten Storm
 menu:
@@ -9,6 +9,7 @@ menu:
     identifier: opening-2021-06-14
     parent: news
     weight: -3
+slug: opening-14th-june-2021
 ---
 
 Breaking News..... Breaking News!!!

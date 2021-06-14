@@ -1,6 +1,6 @@
 ---
 title: Opening at 07 June 2021
-date: 2021-05-25T11:05:00+01:00
+date: 2021-05-25T10:05:00.000Z
 author:
   name: Carsten Storm
 menu:
@@ -9,6 +9,7 @@ menu:
     identifier: infos-opening-2021-06-07
     parent: news
     weight: -1
+slug: opening-07-june-2021
 ---
 
 Moin, liebe Freibadfreunde

@@ -5,4 +5,5 @@ menu:
     name: Aktuelles
     identifier: aktuelles
     weight: 20
+slug: aktuelles
 ---
