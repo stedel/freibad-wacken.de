@@ -8,7 +8,7 @@ menu:
     name: Öffnung am 14. Juni 2021
     identifier: oeffnung-2021-06-14
     parent: aktuelles
-    weight: 998
+    weight: -3
 ---
 
 Breaking News..... Breaking News!!!

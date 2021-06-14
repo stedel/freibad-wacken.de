@@ -8,7 +8,7 @@ menu:
     name: Infos about opening at 07 June 2021
     identifier: infos-opening-2021-06-07
     parent: news
-    weight: 1000
+    weight: -1
 ---
 
 Moin, liebe Freibadfreunde

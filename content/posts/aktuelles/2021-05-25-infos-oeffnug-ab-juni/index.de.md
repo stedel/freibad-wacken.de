@@ -8,7 +8,7 @@ menu:
     name: Infos zur Öffnung ab dem 07. Juni 2021
     identifier: infos-oeffnung-2021-06-07
     parent: aktuelles
-    weight: 1000
+    weight: -1
 ---
 
 Moin, liebe Freibadfreunde

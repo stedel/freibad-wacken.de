@@ -8,7 +8,7 @@ menu:
     name: Opening at 14th June 2021
     identifier: opening-2021-06-14
     parent: news
-    weight: 998
+    weight: -3
 ---
 
 Breaking News..... Breaking News!!!

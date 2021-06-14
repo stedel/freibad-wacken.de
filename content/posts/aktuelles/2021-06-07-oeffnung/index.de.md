@@ -8,7 +8,7 @@ menu:
     name: Öffnung am 07. Juni 2021
     identifier: oeffnung-2021-06-07
     parent: aktuelles
-    weight: 999
+    weight: -2
 ---
 
 ACHTUNG ! ACHTUNG!!

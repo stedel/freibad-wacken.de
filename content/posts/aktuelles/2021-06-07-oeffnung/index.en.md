@@ -8,7 +8,7 @@ menu:
     name: Opening at 07 June 2021
     identifier: opening-2021-06-07
     parent: news
-    weight: 999
+    weight: -2
 ---
 
 ACHTUNG ! ACHTUNG!!
