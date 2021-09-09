@@ -314,6 +314,10 @@ mark {
   transition: all 0.3s ease-out;
 }
 
+.footer p {
+  color: #8392a5 !important;
+}
+
 .footer ul {
   list-style: none;
   padding-left: 0;
