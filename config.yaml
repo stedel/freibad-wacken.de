@@ -68,6 +68,11 @@ params:
     # Enable and configure blog posts
     blog:
       enable: true
+      shareButtons:
+        facebook: true
+        twitter: true
+        whatsapp: true
+        email: true
     # Enable & configure "Notes" features
     notes:
       enable: false
