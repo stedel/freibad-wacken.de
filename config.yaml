@@ -54,10 +54,11 @@ params:
     inverted: /images/site/inverted-logo.png
     favicon: /images/site/favicon.png
 
-  # GitHub repo of your site
-  gitRepo: https://github.com/stedel/freibad-wacken.de
-  # Default branch of your Git repo
-  gitBranch: source
+  # disable "improve this page" button to test html-proof without private links
+  # # GitHub repo of your site
+  # gitRepo: https://github.com/stedel/freibad-wacken.de
+  # # Default branch of your Git repo
+  # gitBranch: source
 
   # Configure various features of this theme
   features:
