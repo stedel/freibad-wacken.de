@@ -11,7 +11,8 @@
 <link rel=stylesheet href=/css/navigators/navbar.css>
 <link rel=stylesheet href=/css/plyr.css>
 <link rel=stylesheet href=/css/flag-icon.min.css>
-<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel=stylesheet>
+<link rel=stylesheet href=/css/katex.min.css>
+<link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600">
 <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css>
 <link rel=icon type=image/png href=/images/site/favicon_hu0361a3f451c62e2f648607c1de447536_31024_42x0_resize_box_3.png>
 <meta property="og:title" content="Open-Air Pool / Freibad Wacken">
@@ -48,10 +49,10 @@ Freibad Wacken</a>
 <a class=nav-link href=#recent-posts>Recent Posts</a>
 </li>
 <li class=nav-item>
-<a class=nav-link href=#overview>Overview</a>
+<a class=nav-link href=#capabilities>Capabilities</a>
 </li>
 <li class=nav-item>
-<a class=nav-link href=#capabilities>Capabilities</a>
+<a class=nav-link href=#overview>Overview</a>
 </li>
 <li class=nav-item>
 <a class=nav-link href=#about>About</a>
@@ -165,40 +166,6 @@ This area contains news and further details about the Open-Air Pool and the supp
 </div>
 </div>
 <div class="container-fluid section-holder d-flex bg-dimmed">
-<div class="container-fluid anchor pb-5 skills-section">
-<h1 class=text-center>
-<span id=overview></span>Overview</h1>
-<div class="container d-flex-block">
-<div class=row id=primary-skills>
-<div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-<a class=skill-card-link>
-<div class=card>
-<div class="card-head d-flex">
-<h5 class=card-title>Opening Hours</h5>
-</div>
-<div class=card-body>
-<p class=card-text>The pool is only open during summer months from 13:00 to 19:00 / 3pm to 7pm. Opening hours can be influenced by current weather conditions.</p>
-</div>
-</div>
-</a>
-</div>
-<div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-<a class=skill-card-link href=/en/posts/aktuelles/2021-06-07-oeffnung/ title="Corona measures / hygiene concept" target=_blank rel=noopener>
-<div class=card>
-<div class="card-head d-flex">
-<h5 class=card-title>Corona measures / hygiene concept</h5>
-</div>
-<div class=card-body>
-<p class=card-text>Current information about corona measures and the hygiene concept in place.</p>
-</div>
-</div>
-</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="container-fluid section-holder d-flex bg-white">
 <div class="container-fluid anchor pb-5 achievements-section">
 <h1 class=text-center>
 <span id=capabilities></span>Capabilities</h1>
@@ -270,6 +237,40 @@ This area contains news and further details about the Open-Air Pool and the supp
 </div>
 </div>
 </div>
+<div class="container-fluid section-holder d-flex bg-white">
+<div class="container-fluid anchor pb-5 skills-section">
+<h1 class=text-center>
+<span id=overview></span>Overview</h1>
+<div class="container d-flex-block">
+<div class=row id=primary-skills>
+<div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
+<a class=skill-card-link>
+<div class=card>
+<div class="card-head d-flex">
+<h5 class=card-title>Opening Hours</h5>
+</div>
+<div class=card-body>
+<p class=card-text>The pool is only open during summer months from 13:00 to 19:00 / 3pm to 7pm. Opening hours can be influenced by current weather conditions.</p>
+</div>
+</div>
+</a>
+</div>
+<div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
+<a class=skill-card-link href=/en/posts/aktuelles/2021-06-07-oeffnung/ title="Corona measures / hygiene concept" target=_blank rel=noopener>
+<div class=card>
+<div class="card-head d-flex">
+<h5 class=card-title>Corona measures / hygiene concept</h5>
+</div>
+<div class=card-body>
+<p class=card-text>Current information about corona measures and the hygiene concept in place.</p>
+</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
 <div class="container-fluid section-holder d-flex bg-dimmed">
 <div class="container anchor p-lg-5 about-section" id=about>
 <div class="row pt-sm-2 pt-md-4 align-self-center">
@@ -308,10 +309,10 @@ This area contains news and further details about the Open-Air Pool and the supp
 <a class=smooth-scroll href=https://freibad-wacken.de/en/#recent-posts>Recent Posts</a>
 </li>
 <li class=nav-item>
-<a class=smooth-scroll href=https://freibad-wacken.de/en/#overview>Overview</a>
+<a class=smooth-scroll href=https://freibad-wacken.de/en/#capabilities>Capabilities</a>
 </li>
 <li class=nav-item>
-<a class=smooth-scroll href=https://freibad-wacken.de/en/#capabilities>Capabilities</a>
+<a class=smooth-scroll href=https://freibad-wacken.de/en/#overview>Overview</a>
 </li>
 <li class=nav-item>
 <a class=smooth-scroll href=https://freibad-wacken.de/en/#about>About</a>
@@ -372,6 +373,8 @@ Toha
 <script type=text/javascript src=/js/navbar.js></script>
 <script type=text/javascript src=/js/plyr.js></script>
 <script type=text/javascript src=/js/main.js></script>
+<script type=text/javascript defer src=/js/katex.min.js></script>
+<script type=text/javascript defer src=/js/auto-render.min.js onload=renderMathInElement(document.body)></script>
 <script src=/js/itype.min.js></script>
 <script src=/js/github-button.js></script>
 <script src=/js/home.js></script>
