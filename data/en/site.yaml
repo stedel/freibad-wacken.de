@@ -8,11 +8,11 @@ However, the theme author does not provide any warranty or takes any liability f
 
 customMenus:
   - name: Imprint
-    url: posts/imprint
+    url: posts/impressum
     hideFromNavbar: true
     showOnFooter: true
   - name: Privacy Statement
-    url: posts/privacy
+    url: posts/datenschutz
     hideFromNavbar: true
     showOnFooter: true
 
