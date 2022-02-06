@@ -7,7 +7,7 @@ menu:
     name: Overview
     identifier: overview
     weight: 10
-slug: overview
+slug: uberblick
 ---
 
 <!-- Greeting! This is an introduction post. This post tests the followings:

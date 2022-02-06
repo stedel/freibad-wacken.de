@@ -1,3 +1,4 @@
 ---
 title: Beiträge
+slug: beitraege
 ---

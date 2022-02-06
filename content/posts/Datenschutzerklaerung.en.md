@@ -4,7 +4,7 @@ date: 2021-06-01T02:06:25.000Z
 description: Privacy Statement
 menu:
   sidebar:
-slug: privacy
+slug: datenschutz
 ---
 
 Unser Hoster erhebt in sog. Logfiles folgende Daten, die Ihr Browser übermittelt:

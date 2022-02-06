@@ -9,7 +9,7 @@ menu:
     identifier: opening-2021-06-07
     parent: news
     weight: -2
-slug: opening-07-june-2021
+slug: offnung-07-juni-2021
 ---
 
 ACHTUNG ! ACHTUNG!!

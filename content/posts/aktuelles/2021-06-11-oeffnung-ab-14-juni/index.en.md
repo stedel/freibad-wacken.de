@@ -9,7 +9,7 @@ menu:
     identifier: opening-2021-06-14
     parent: news
     weight: -3
-slug: opening-14th-june-2021
+slug: offnung-14-juni-2021
 ---
 
 Breaking News..... Breaking News!!!

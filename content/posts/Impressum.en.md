@@ -4,7 +4,7 @@ date: 2021-06-01T02:06:25.000Z
 description: Imprint
 menu:
   sidebar:
-slug: imprint
+slug: impressum
 ---
 
 - Förderverein Freibad Wacken e. V.
