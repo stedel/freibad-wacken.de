@@ -12,6 +12,9 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
+  - name: WOA 2022
+    summary: "Only cash payments are possible during Wacken Open Air 2022 at the Freibad. From tuesday to saturday the pool opens already at 8am."
+
   - name: Opening Hours
     summary: "The pool is only open during summer months from 13:00 to 19:00 / 3pm to 7pm. Opening hours can be influenced by current weather conditions."
 
