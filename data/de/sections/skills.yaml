@@ -12,6 +12,9 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
+  - name: WOA 2022
+    summary: "Während dem WOA ist die Bezahlung nur mit Bargeld möglich. Das Freibad öffnet Dienstag bis Samstag bereits ab 8 Uhr morgens."
+
   - name: Öffnungszeiten
     summary: "Saisoneröffnung ist ab Pfingstsonntag, dem 5. Juni 2022. Innerhalb der Saison ist von 13:00 bis 19:00 Uhr geöffnet. Das Freibad behält sich die Schließung des Bades wegen schlechtwetters vor."
 
