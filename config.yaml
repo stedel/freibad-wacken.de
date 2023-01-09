@@ -2,7 +2,6 @@ baseURL: https://freibad-wacken.de
 
 languageCode: de
 title: Freibad Wacken
-theme: toha
 
 # Use Hugo modules to add theme
 module:
