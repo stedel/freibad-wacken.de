@@ -4,10 +4,12 @@ Website for the Förderverein Freibad Wacken created with hugo static site gener
 
 Hosted at <https://freibad-wacken.de>.
 
-Before starting the dev server, update the theme submodule:
+Before starting the dev server, get the theme hugo mod and npm dependencies:
 
 ```sh
-git submodule update --init --recursive
+hugo mod npm pack
+hugo mod tidy
+npm install
 ```
 
 If the theme is updated, start the dev server:
