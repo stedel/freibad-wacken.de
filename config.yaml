@@ -56,9 +56,9 @@ params:
 
   # disable "improve this page" button to test html-proof without private links
   # # GitHub repo of your site
-  # gitRepo: https://github.com/stedel/freibad-wacken.de
+  gitRepo: https://github.com/stedel/freibad-wacken.de
   # # Default branch of your Git repo
-  # gitBranch: source
+  gitBranch: main
 
   # Configure the number of section title visible in the top navbar
   topNavbar:
