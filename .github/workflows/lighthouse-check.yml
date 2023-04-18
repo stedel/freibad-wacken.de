@@ -5,7 +5,9 @@ on: [pull_request]
 jobs:
   score-check:
     runs-on: ubuntu-latest
-    steps:        
+    steps: 
+    - uses: actions/checkout@v3
+    
     - name: Waiting for 200 from the Netlify Preview
       uses: kamranayub/wait-for-netlify-action@v2.1.0
       id: wait-for-netflify-preview
