@@ -12,6 +12,7 @@ jobs:
       with:
         site_name: "freibad-wacken"
         max_timeout: 300
+        secrets: '["NETLIFY_TOKEN"]'
       env:
         NETLIFY_TOKEN: ${{secrets.NETLIFY_TOKEN}}
 
