@@ -5,16 +5,14 @@ on: [pull_request]
 jobs:
   score-check:
     runs-on: ubuntu-latest
-    steps:
-    - name: Waiting for Netlify Preview
-      uses: kamranayub/wait-for-netlify-action@v2.1.1
+    steps:        
+    - name: Waiting for 200 from Netlify
+      uses: probablyup/wait-for-netlify-action@3.2.0
       id: preview
       with:
-        site_name: "freibad-wacken"
-        max_timeout: 300
-        secrets: '["NETLIFY_TOKEN"]'
+        site_id: '7b1b61e1-e7bc-4225-97f6-bc6f4104fec6'
       env:
-        NETLIFY_TOKEN: ${{secrets.NETLIFY_TOKEN}}
+        NETLIFY_TOKEN: ${{ secrets.NETLIFY_TOKEN }}
 
     - name: Run Lighthouse
       uses: foo-software/lighthouse-check-action@v10.0.0
