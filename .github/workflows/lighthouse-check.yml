@@ -11,6 +11,7 @@ jobs:
       id: preview
       with:
         site_id: '7b1b61e1-e7bc-4225-97f6-bc6f4104fec6'
+        max_timeout: 120
       env:
         NETLIFY_TOKEN: ${{ secrets.NETLIFY_TOKEN }}
 
