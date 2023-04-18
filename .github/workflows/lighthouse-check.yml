@@ -26,15 +26,3 @@ jobs:
         lhci autorun --upload.target=temporary-public-storage --collect.url=${{ steps.wait-for-netflify-preview.outputs.url }} || echo "LHCI failed!"
       env:
         LHCI_GITHUB_APP_TOKEN: ${{ secrets.LIGHTHOUSE_TOKEN }}
-
-#    - name: Run Lighthouse
-#      uses: foo-software/lighthouse-check-action@v10.0.0
-#      id: lighthouseCheck
-#      with:
-#        accessToken: ${{ secrets.LIGHTHOUSE_TOKEN }}
-#        gitHubAccessToken: ${{secrets.GITHUB_TOKEN}}
-#        emulatedFormFactor: 'all'
-#        prCommentEnabled: true
-#        prCommentSaveOld: false
-#        timeout: 5
-#        urls: "${{ steps.preview.outputs.url }},${{ steps.preview.outputs.url }}/posts/,${{ steps.preview.outputs.url }}/posts/writing-posts/markdown-syntax/"
