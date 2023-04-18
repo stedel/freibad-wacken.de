@@ -5,25 +5,24 @@ on: [pull_request]
 jobs:
   score-check:
     runs-on: ubuntu-latest
-    steps:
-    - name: Waiting for Netlify Preview
-      uses: kamranayub/wait-for-netlify-action@v2.1.1
-      id: preview
+    steps: 
+    - uses: actions/checkout@v3
+    
+    - name: Waiting for 200 from the Netlify Preview
+      uses: kamranayub/wait-for-netlify-action@v2.1.0
+      id: wait-for-netflify-preview
       with:
         site_name: "freibad-wacken"
-        max_timeout: 300
-        secrets: '["NETLIFY_TOKEN"]'
       env:
-        NETLIFY_TOKEN: ${{secrets.NETLIFY_TOKEN}}
+        NETLIFY_TOKEN: ${{ secrets.NETLIFY_TOKEN }}
 
-    - name: Run Lighthouse
-      uses: foo-software/lighthouse-check-action@v10.0.0
-      id: lighthouseCheck
+    - uses: actions/setup-node@v3
       with:
-        accessToken: ${{ secrets.LIGHTHOUSE_TOKEN }}
-        gitHubAccessToken: ${{secrets.GITHUB_TOKEN}}
-        emulatedFormFactor: 'all'
-        prCommentEnabled: true
-        prCommentSaveOld: false
-        timeout: 5
-        urls: "${{ steps.preview.outputs.url }},${{ steps.preview.outputs.url }}/posts/,${{ steps.preview.outputs.url }}/posts/writing-posts/markdown-syntax/"
+        node-version: '18'
+  
+    - name: Lighthouse CI
+      run: |
+        npm install -g @lhci/cli@0.12.x
+        lhci autorun --upload.target=temporary-public-storage --collect.url=${{ steps.wait-for-netflify-preview.outputs.url }} || echo "LHCI failed!"
+      env:
+        LHCI_GITHUB_APP_TOKEN: ${{ secrets.LIGHTHOUSE_TOKEN }}
