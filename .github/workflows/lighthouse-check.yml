@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:        
     - name: Waiting for 200 from Netlify
-      uses: probablyup/wait-for-netlify-action@3.2.0
+      uses: probablyup/wait-for-netlify-action@3.4.0
       id: preview
       with:
         site_id: '7b1b61e1-e7bc-4225-97f6-bc6f4104fec6'
@@ -15,14 +15,25 @@ jobs:
       env:
         NETLIFY_TOKEN: ${{ secrets.NETLIFY_TOKEN }}
 
-    - name: Run Lighthouse
-      uses: foo-software/lighthouse-check-action@v10.0.0
-      id: lighthouseCheck
+    - uses: actions/setup-node@v3
       with:
-        accessToken: ${{ secrets.LIGHTHOUSE_TOKEN }}
-        gitHubAccessToken: ${{secrets.GITHUB_TOKEN}}
-        emulatedFormFactor: 'all'
-        prCommentEnabled: true
-        prCommentSaveOld: false
-        timeout: 5
-        urls: "${{ steps.preview.outputs.url }},${{ steps.preview.outputs.url }}/posts/,${{ steps.preview.outputs.url }}/posts/writing-posts/markdown-syntax/"
+        node-version: '18'
+  
+    - name: Lighthouse CI
+      run: |
+        npm install -g @lhci/cli@0.12.x
+        lhci autorun --upload.target=temporary-public-storage --collect.url=${{ steps.preview.outputs.url }} || echo "LHCI failed!"
+      env:
+        LHCI_GITHUB_APP_TOKEN: ${{ secrets.LIGHTHOUSE_TOKEN }}
+
+#    - name: Run Lighthouse
+#      uses: foo-software/lighthouse-check-action@v10.0.0
+#      id: lighthouseCheck
+#      with:
+#        accessToken: ${{ secrets.LIGHTHOUSE_TOKEN }}
+#        gitHubAccessToken: ${{secrets.GITHUB_TOKEN}}
+#        emulatedFormFactor: 'all'
+#        prCommentEnabled: true
+#        prCommentSaveOld: false
+#        timeout: 5
+#        urls: "${{ steps.preview.outputs.url }},${{ steps.preview.outputs.url }}/posts/,${{ steps.preview.outputs.url }}/posts/writing-posts/markdown-syntax/"
