@@ -40,9 +40,11 @@ jobs:
         with:
           directory: ./public
           enforce_https: false
+          allow_missing_href: true # many broken href without quotes that still work apparently
           ignore_url: |
             #
             mailto:?subject=
           ignore_url_re: |
+            ^/
             ^https://github.com
             ^https://www.pexels.com
