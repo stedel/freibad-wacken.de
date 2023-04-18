@@ -40,5 +40,9 @@ jobs:
         with:
           directory: ./public
           enforce_https: false
-          url_ignore: "#"
-          url_ignore_re: ^https://www.pexels.com
+          ignore_url: |
+            #
+            mailto:?subject=
+          ignore_url_re: |
+            ^https://github.com
+            ^https://www.pexels.com
