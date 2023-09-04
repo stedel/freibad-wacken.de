@@ -6,7 +6,7 @@ jobs:
   score-check:
     runs-on: ubuntu-latest
     steps: 
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     
     - name: Waiting for 200 from the Netlify Preview
       uses: kamranayub/wait-for-netlify-action@v2.1.1
