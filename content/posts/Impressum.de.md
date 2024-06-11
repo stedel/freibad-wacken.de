@@ -8,7 +8,7 @@ slug: impressum
 ---
 
 - Förderverein Freibad Wacken e. V.
-- 1. Vorsitzender: Carsten Storm
-- Süderstr. 1, 25596 Wacken
+- 1. Vorsitzender: Stefan Timm
+- Süderstr. 19, 25596 Wacken
 - <freibad@wacken.de>
 - +494827-626
