@@ -15,7 +15,8 @@ slug: woa-2024
 ## Shuttlebus
 
 Es gibt zum WOA 2024 wieder einen Shuttle Bus von Montag bis Samstag, jeweils zwischen 11 und 18:30
-Abfahrt vom neuen Busplatz an der Ecke Bokelrehmer Straße / Bokelrehmer Weg.
+Der Shuttle startet vom neuen [Festival Bus Stop](https://maps.app.goo.gl/UWz5M6ubptoVko286) an der Ecke Bokelrehmer Straße / Vierthweg (Bokelrehmer Weg).
+
 Der Bus kostet 2€ pro Fahrt, der Eintritt im Schwimmbad 3€.
 
 ## Bezahlung
@@ -24,7 +25,8 @@ Der Bus kostet 2€ pro Fahrt, der Eintritt im Schwimmbad 3€.
 
 ## Schwimmbad 2024 T-Shirt
 
-Im Schwimmbad ist dieses Jahr außerdem exclusiv das T-Shirt mit Hai und Krake erhältlich! Nur solange der Vorrat reicht.
+Im Schwimmbad ist dieses Jahr außerdem exclusiv das T-Shirt mit Hai und Krake erhältlich!
+Nur solange der Vorrat reicht.
 
 ![Front](pool-2024-01-front.jpg)
 ![Back](pool-2024-02-back.jpg)
