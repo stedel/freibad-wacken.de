@@ -8,7 +8,7 @@ menu:
     name: Wacken Open Air 2024
     identifier: woa-2024
     parent: aktuelles
-    weight: -7
+    weight: -8
 slug: woa-2024
 ---
 

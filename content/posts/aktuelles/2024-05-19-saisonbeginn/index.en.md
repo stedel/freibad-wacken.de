@@ -8,7 +8,7 @@ menu:
     name: Opening May 19th 2024
     identifier: saisonstart-2024
     parent: news
-    weight: -6
+    weight: -7
 slug: seasonal-opening-may-2024
 ---
 
