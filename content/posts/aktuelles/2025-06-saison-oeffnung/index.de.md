@@ -29,3 +29,5 @@ Früh und Spätschwimmen (Nur für Mitglieder des Fördervereins).
 Die Öffnungszeiten zum WOA werden gesondert bekannt gegeben.
 
 Bei schlechtem Wetter bleibt das Bad geschlossen.
+
+![Öffnungszeiten 2025](oeffnungszeiten-2025.jpg)

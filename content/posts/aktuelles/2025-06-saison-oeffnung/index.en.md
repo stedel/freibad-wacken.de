@@ -12,4 +12,9 @@ menu:
 slug: seasonal-opening-may-2025
 ---
 
-The season starts at Whit Sunday on May 24th 2025.
+The season starts on May 24th 2025.
+
+Open daily from 14:00 to 19:00.
+During the summer school vacation on weekens from 12:00 to 19:00.
+
+![Öffnungszeiten 2025](oeffnungszeiten-2025.jpg)
