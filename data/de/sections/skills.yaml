@@ -12,12 +12,13 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-  - name: WOA 2022
-    summary: "Während dem WOA ist die Bezahlung nur mit Bargeld möglich. Das Freibad öffnet Dienstag bis Samstag bereits ab 8 Uhr morgens."
+  - name: WOA
+    summary: "Während dem WOA ist die Bezahlung nur mit Bargeld möglich. Die gesonderten Öffnugszeiten werden noch bekannt gegeben"
 
   - name: Öffnungszeiten
-    summary: "Saisoneröffnung ist ab Pfingstsonntag, dem 5. Juni 2022. Innerhalb der Saison ist von 13:00 bis 19:00 Uhr geöffnet. Das Freibad behält sich die Schließung des Bades wegen schlechtwetters vor."
+    summary: "Innerhalb der Saison ist von 14:00 bis 19:00 Uhr geöffnet. Details im Beitrag zur Eröffnung 2025."
+    url: /posts/aktuelles/saisonstart-mai-2025/
 
-  - name: Corona-Maßnahmen / Hygienekonzept
-    summary: "Aktuelle Informationen zu Corona-Maßnahmenn und dem aktuellen Hygienekonzept."
+  - name: Aktuelle Infos
+    summary: "Aktuelle Informationen zum Freibad und zu Veranstaltungen findet ihr in den Beiträgen hier."
     url: /posts/aktuelles/

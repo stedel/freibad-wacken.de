@@ -8,7 +8,7 @@ menu:
     name: "Saisonstart am 19. Mai 2024"
     identifier: saisonstart-2024
     parent: aktuelles
-    weight: -6
+    weight: -7
 slug: saisonstart-mai-2024
 ---
 
