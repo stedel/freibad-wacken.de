@@ -13,7 +13,8 @@ section:
 # Give a summary of you each skill in the summary section.
 skills:
   - name: WOA
-    summary: "Only cash payments are possible during Wacken Open Air at the Freibad. Additional pening hours will be announced separately."
+    summary: "Only cash payments are possible during Wacken Open Air at the Freibad. Details in the blog post."
+    url: /en/posts/aktuelles/woa-2025/
 
   - name: Opening Hours
     summary: "The pool is only open during summer months from 14:00 to 19:00 / 2pm to 7pm. Opening hours can be influenced by current weather conditions. Details in the current season opening post."
