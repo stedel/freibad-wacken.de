@@ -13,7 +13,8 @@ section:
 # Give a summary of you each skill in the summary section.
 skills:
   - name: WOA
-    summary: "Während dem WOA ist die Bezahlung nur mit Bargeld möglich. Die gesonderten Öffnugszeiten werden noch bekannt gegeben"
+    summary: "Während dem WOA ist die Bezahlung nur mit Bargeld möglich. Details im Beitrag zum WOA 2025."
+    url: /posts/aktuelles/woa-2025/
 
   - name: Öffnungszeiten
     summary: "Innerhalb der Saison ist von 14:00 bis 19:00 Uhr geöffnet. Details im Beitrag zur Eröffnung 2025."
