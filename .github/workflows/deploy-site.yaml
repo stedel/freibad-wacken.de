@@ -13,27 +13,16 @@ jobs:
       # checkout to the commit that has been pushed
       - uses: actions/checkout@v5
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3.0.0
-        with:
-          hugo-version: "latest"
-          extended: true
+      # Setup mise
+      - uses: jdx/mise-action@v3
 
-      - name: Update Hugo Modules
-        run: hugo mod tidy
-
-      - name: Setup Node
-        uses: actions/setup-node@v6
-        with:
-          node-version: 22
-
-      - name: Install node modules
+      - name: Install dependencies
         run: |
-          hugo mod npm pack
-          npm install
+          mise run install # install theme dependency
 
       - name: Build
-        run: hugo --minify
+        run: |
+          mise run build
 
       # push the generated content into the `gh-pages` branch.
       - name: Deploy

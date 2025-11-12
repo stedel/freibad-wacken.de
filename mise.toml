@@ -2,10 +2,11 @@
 hugo-extended = 'latest'
 node = 'latest'
 go = 'latest'
+pnpm = 'latest'
 
 [tasks.install]
 description = "Install dependencies"
-run = ["hugo mod tidy", "hugo mod npm pack", "npm install"]
+run = ["rm package.hugo.json || echo ''", "rm -rf public || echo ''", "hugo mod tidy", "hugo mod npm pack", "pnpm install"]
 
 [tasks.build]
 description = "Build Hugo site"
@@ -28,5 +29,5 @@ run = "hugo mod get github.com/hugo-toha/toha/v4@main"
 depends_post = "install"
 
 [tasks.fix-security]
-description = "Run npm audit fix"
-run = "npm audit fix --force"
+description = "Run pnpm audit fix"
+run = "pnpm audit --fix"
