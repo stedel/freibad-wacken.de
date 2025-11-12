@@ -1,5 +1,5 @@
 [build]
-command = "mise install && mise run build -b $DEPLOY_URL"
+command = "mise run build -b $DEPLOY_URL"
 publish = "public"
 
 [build.environment]
@@ -9,6 +9,8 @@ NODE_VERSION = "v24.11.1"
 [context.production.environment]
 HUGO_ENV = "production"
 
+[context.split1]
+command = "mise install"
 
 [context.deploy-preview]
 command = "mise install && mise run build --buildFuture -b $DEPLOY_PRIME_URL"
