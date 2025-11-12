@@ -4,7 +4,7 @@ publish = "public"
 
 [build.environment]
 HUGO_ENABLEGITINFO = "true"
-NODE_VERSION = "v24.11.1"
+NODE_VERSION = "v24"
 
 [context.production.environment]
 HUGO_ENV = "production"
