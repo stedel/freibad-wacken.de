@@ -1,8 +1,8 @@
 [tools]
-hugo-extended = '0.152.2'
-node = '24.11.1'
-go = '1.25'
-pnpm = '10.21.0'
+hugo-extended = 'latest'
+node = 'latest'
+go = 'latest'
+pnpm = 'latest'
 
 [tasks.install]
 description = "Install dependencies"
