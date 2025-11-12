@@ -43,7 +43,7 @@ jobs:
           prCommentEnabled: true
           prCommentSaveOld: true
           timeout: 5
-          urls: "${{ steps.preview.outputs.url }},${{ steps.preview.outputs.url }}/posts/,${{ steps.preview.outputs.url }}/posts/markdown-sample/,${{ steps.preview.outputs.url }}/posts/shortcodes/"
+          urls: "${{ steps.preview.outputs.url }},${{ steps.preview.outputs.url }}/posts/,${{ steps.preview.outputs.url }}/posts/uberblick/,${{ steps.preview.outputs.url }}/posts/impressum/"
 
   # Check for any broken links
   markdown-link-check:
@@ -67,7 +67,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         with:
-          args: "--verbose --exclude-mail ${{steps.preview.outputs.url}} --exclude=['https://www.udemy.com/']"
+          args: "--verbose"
           output: lychee/out.md
 
       - name: Comment Broken Links
