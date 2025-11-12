@@ -30,7 +30,7 @@ languages:
     weight: 100
 
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
-DefaultContentLanguage: de
+defaultContentLanguage: de
 
 # Allow raw html in markdown file
 markup:
@@ -77,18 +77,13 @@ params:
 
   # Configure various features of this theme
   features:
-    # Enable dark theme
-    darkMode:
+    # Configure theme color settings
+    theme:
       enable: true
       services:
-        darkreader:
-          defaultColorScheme: system # options are 'system', 'dark', 'light'
-          fixes:
-            invert: ['img[src$=".svg"]'] # inverts svg colors.
-          theme:
-            brightness: 100
-            contrast: 100
-            sepia: 0
+        light: true # enable light theme. default "true"
+        dark: true # enable dark theme. default "true"
+        default: system # can be either light, dark or system. default "system"
 
     # Enable and configure portfolio
     portfolio:
@@ -183,7 +178,7 @@ params:
 
     # specify whether you want to show Table of Contents in reading page
     toc:
-      enable: false
+      enable: true
 
     # Show tags under the post title
     tags:
@@ -243,7 +238,7 @@ params:
     #   codeFences: false
     # ```
     syntaxHighlight:
-      enable: true
+      enable: false
       services:
         hljs:
           # see: https://highlightjs.readthedocs.io/en/latest/api.html#configure
@@ -282,8 +277,8 @@ params:
     # Currently, it supports "mailchimp".
     newsletter:
       enable: false
-      provider: mailchimp
-      mailchimpURL: https://github.us1.list-manage.com/subscribe/post?u=19de52a4603135aae97163fd8&amp;id=094a24c76e
+      # provider: mailchimp
+      # mailchimpURL: https://github.us1.list-manage.com/subscribe/post?u=19de52a4603135aae97163fd8&amp;id=094a24c76e
 
     # Show/hide disclaimer notice in the footer. Default is "false".
     disclaimer:

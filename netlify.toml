@@ -1,38 +1,16 @@
 [build]
-command = "hugo --gc --minify"
+command = "mise install && mise run build -b $DEPLOY_URL"
 publish = "public"
 
-[context.production.environment]
+[build.environment]
 HUGO_ENABLEGITINFO = "true"
-HUGO_ENV = "production"
-HUGO_VERSION = "0.150.0"
-NODE_VERSION = "v22.19.0"
-NPM_VERSION = "10.9.3"
 
-[context.split1]
-command = "hugo mod tidy && hugo mod npm pack && npm install && hugo --gc --minify --enableGitInfo"
-
-[context.split1.environment]
+[context.production.environment]
 HUGO_ENV = "production"
-HUGO_VERSION = "0.150.0"
-NODE_VERSION = "v22.19.0"
-NPM_VERSION = "10.9.3"
+
 
 [context.deploy-preview]
-command = "hugo mod tidy && hugo mod npm pack && npm install && hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
-
-[context.deploy-preview.environment]
-HUGO_VERSION = "0.150.0"
-NODE_VERSION = "v22.19.0"
-NPM_VERSION = "10.9.3"
+command = "mise install && mise run build --buildFuture -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy]
-command = "hugo mod tidy && hugo mod npm pack && npm install && hugo --gc --minify -b $DEPLOY_PRIME_URL"
-
-[context.branch-deploy.environment]
-HUGO_VERSION = "0.150.0"
-NODE_VERSION = "v22.19.0"
-NPM_VERSION = "10.9.3"
-
-[context.next.environment]
-HUGO_ENABLEGITINFO = "true"
+command = "mise install && mise run build -b $DEPLOY_PRIME_URL"
