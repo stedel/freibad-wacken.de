@@ -8,7 +8,7 @@ menu:
     name: Wacken Open Air 2025
     identifier: woa-2025
     parent: aktuelles
-    weight: -8
+    weight: -10
 slug: woa-2025
 ---
 

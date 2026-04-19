@@ -8,7 +8,7 @@ menu:
     name: Artikel in der Norddeutschen Rundschau
     identifier: nr-shz-2025-09
     parent: aktuelles
-    weight: -9
+    weight: -11
 slug: nr-shz-2025-09
 ---
 
