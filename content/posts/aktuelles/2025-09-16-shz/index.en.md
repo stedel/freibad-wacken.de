@@ -8,7 +8,7 @@ menu:
     name: News in the Norddeutsche Rundschau newspaper
     identifier: nr-shz-2025-09
     parent: news
-    weight: -9
+    weight: -11
 slug: nr-shz-2025-09
 ---
 

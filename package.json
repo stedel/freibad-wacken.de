@@ -60,5 +60,8 @@
     "typeit": "^8.8.7"
   },
   "name": "freibad-wacken.de",
-  "version": "0.5.0"
+  "version": "0.5.0",
+  "workspaces": [
+    "packages/hugoautogen"
+  ]
 }
