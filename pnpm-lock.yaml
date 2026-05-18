@@ -87,6 +87,8 @@ importers:
         specifier: ^8.8.7
         version: 8.8.7
 
+  packages/hugoautogen: {}
+
 packages:
 
   '@antfu/install-pkg@1.1.0':

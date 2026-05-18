@@ -1,6 +1,6 @@
 baseURL: https://freibad-wacken.de
 
-languageCode: de
+locale: de
 title: Freibad Wacken
 
 # Use Hugo modules to add theme
@@ -23,10 +23,10 @@ module:
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
   en:
-    languageName: English
+    label: English
     weight: 1
   de:
-    languageName: Deutsch
+    label: Deutsch
     weight: 100
 
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
@@ -189,7 +189,7 @@ params:
       enable: true
       # # If you want to use different country flag for a language, specify them here.
       # flagOverwrites:
-      #   - languageCode: en
+      #   - locale: en
       #     countryCode: us
 
     # Enable this to use `embed-pdf` shortcode.
