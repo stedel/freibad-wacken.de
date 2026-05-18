@@ -2,7 +2,7 @@
 hugo-extended = 'latest'
 node = 'latest'
 go = 'latest'
-pnpm = 'latest'
+pnpm = '10'
 
 [tasks.install]
 description = "Install dependencies"
