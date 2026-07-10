@@ -15,7 +15,7 @@ slug: seasonal-opening-may-2026
 The season starts on May 24th 2026.
 
 Open daily from 14:00 to 19:00.
-During the summer school vacation daily from 12:00 to 19:00.
+On weekends we open earlier at 12:00.
 
 Early swimming (members of the Förderverein only):
 
