@@ -13,12 +13,12 @@ section:
 # Give a summary of you each skill in the summary section.
 skills:
   - name: WOA
-    summary: "Only cash payments are possible during Wacken Open Air at the Freibad. Details in the blog post."
-    url: /en/posts/aktuelles/woa-2025/
+    summary: "Only cash payments are possible during WOA at the Freibad. Open from 8am to 7pm. Details in the blog post."
+    url: /en/posts/aktuelles/woa-2026/
 
   - name: Opening Hours
     summary: "The pool is only open during summer months from 14:00 to 19:00 / 2pm to 7pm. Opening hours can be influenced by current weather conditions. Details in the current season opening post."
-    url: /en/posts/aktuelles/seasonal-opening-may-2025/
+    url: /en/posts/aktuelles/seasonal-opening-may-2026/
 
   - name: News
     summary: "Current information about the Freibad and events can be found in the posts here."
