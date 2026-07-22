@@ -13,12 +13,12 @@ section:
 # Give a summary of you each skill in the summary section.
 skills:
   - name: WOA
-    summary: "Während dem WOA ist die Bezahlung nur mit Bargeld möglich. Details im Beitrag zum WOA 2025."
-    url: /posts/aktuelles/woa-2025/
+    summary: "Während dem WOA ist die Bezahlung nur mit Bargeld möglich. Während dem WOA ist zwischen 8 und 19 Uhr auf. Details im Beitrag."
+    url: /posts/aktuelles/woa-2026/
 
   - name: Öffnungszeiten
-    summary: "Innerhalb der Saison ist von 14:00 bis 19:00 Uhr geöffnet. Details im Beitrag zur Eröffnung 2025."
-    url: /posts/aktuelles/saisonstart-mai-2025/
+    summary: "Innerhalb der Saison ist von 14:00 bis 19:00 Uhr geöffnet. Am Wochenende schon ab 12. Details im Beitrag zum Saisonstart."
+    url: /posts/aktuelles/saisonstart-2026/
 
   - name: Aktuelle Infos
     summary: "Aktuelle Informationen zum Freibad und zu Veranstaltungen findet ihr in den Beiträgen hier."

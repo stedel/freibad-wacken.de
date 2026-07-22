@@ -9,7 +9,7 @@ menu:
     identifier: saisonstart-2026
     parent: aktuelles
     weight: -12
-slug: saisonstart-mai-2026
+slug: saisonstart-2026
 ---
 
 Ab dem 24. Mai 2026 geht es endlich wieder los.
