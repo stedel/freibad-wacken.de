@@ -17,7 +17,7 @@ Während Dem W:O:A hat das Schwimmbad von 8 bis 19 Uhr geöffnet!
 ## Shuttlebus
 
 Es gibt zum WOA 2026 wieder einen Shuttle Bus von Montag bis Samstag, jeweils zwischen 10 und 18:30.
-Der Shuttle startet vom [Festival Bus Stop](https://maps.app.goo.gl/UWz5M6ubptoVko286) an der Ecke Bokelrehmer Straße / Vierthweg (Bokelrehmer Weg).
+Der Shuttle startet vom [WOA Busplatz Ost](https://maps.app.goo.gl/4YNipc1QW2UEw88j8) an der Ecke Bokelrehmer Straße / Vierthweg (Bokelrehmer Weg).
 
 Zusätzlich zum Schwimmbad gibt es dieses Jahr eine Haltestelle an der [LGH Clubstage](https://maps.app.goo.gl/ttYHz65VsXD3niVP6) (Landgasthof) und bei [Edeka Boll](https://maps.app.goo.gl/F3yYi1AdbKutR7PN7).
 
