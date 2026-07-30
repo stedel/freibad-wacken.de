@@ -17,7 +17,7 @@ During the W:O:A week the pool is open from 8 AM to 7 PM.
 ## Shuttle Bus
 
 There will again be a shuttle bus for WOA 2026 from Monday to Saturday, between 10 AM and 6:30 PM.
-Departure starts at the [Festival Bus Stop](https://maps.app.goo.gl/UWz5M6ubptoVko286) at the corner of Bokelrehmer Straße / Vierthweg (Bokelrehmer Weg).
+Departure starts at the [Festival Bus Stop East](https://maps.app.goo.gl/4YNipc1QW2UEw88j8) at the corner of Bokelrehmer Straße / Vierthweg (Bokelrehmer Weg).
 
 This year we have an additional bus stop at the [LGH Clubstage](https://maps.app.goo.gl/ttYHz65VsXD3niVP6) (Landgasthof) and at [Edeka Boll](https://maps.app.goo.gl/F3yYi1AdbKutR7PN7).
 
