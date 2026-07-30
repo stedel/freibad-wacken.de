@@ -55,7 +55,7 @@
     "mermaid": "^11.15.0",
     "plyr": "^3.8.3",
     "popper.js": "^1.16.1",
-    "postcss": "^8.5.10",
+    "postcss": "^8.5.18",
     "postcss-cli": "^11.0.1",
     "typeit": "^8.8.7"
   },
