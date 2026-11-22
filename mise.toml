@@ -1,8 +1,9 @@
 [tools]
 hugo-extended = 'latest'
+"github:sass/dart-sass" = { version = "1.108.2", version_prefix = "" }
 node = 'latest'
 go = 'latest'
-pnpm = '10'
+pnpm = '12'
 
 [tasks.install]
 description = "Install dependencies"

@@ -1,4 +1,4 @@
 ---
 title: Beiträge
-slug: beitraege
+slug: posts
 ---

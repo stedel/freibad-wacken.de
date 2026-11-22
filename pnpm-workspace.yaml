@@ -1,2 +1,7 @@
 packages:
   - packages/hugoautogen
+allowBuilds:
+  '@parcel/watcher': true
+  core-js: true
+  plyr: true
+  typeit: true
