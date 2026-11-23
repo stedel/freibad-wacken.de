@@ -22,7 +22,7 @@ jobs:
 
       - name: Update theme to latest commit
         run: |
-          mise run update-to-main
+          mise run update
 
       - name: Build
         run: |
